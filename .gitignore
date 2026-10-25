@@ -1,0 +1,18 @@
+devpost/learner-profile.md
+.env
+.env.*
+!.env.example
+node_modules/
+
+# Terraform working files. The generated plan.json and the synthetic baseline
+# terraform.tfstate ARE committed on purpose: they are the example input.
+**/.terraform/
+*.tfplan
+demo/tfplan
+demo/plan.err
+
+# Devpost Learn skill pack (installed, not authored here)
+.agents/
+.claude/
+agent/
+# skills-lock.json kept as evidence the Devpost skill pack was installed
